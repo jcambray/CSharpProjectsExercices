@@ -1,0 +1,16 @@
+C:\Users\jerome\documents\visual studio 2012\Projects\nurl\nurlTests\bin\Debug\nurlTests.dll
+C:\Users\jerome\documents\visual studio 2012\Projects\nurl\nurlTests\bin\Debug\nurlTests.pdb
+C:\Users\jerome\documents\visual studio 2012\Projects\nurl\nurlTests\bin\Debug\nunit.framework.dll
+C:\Users\jerome\documents\visual studio 2012\Projects\nurl\nurlTests\bin\Debug\nunit.framework.xml
+C:\Users\jerome\documents\visual studio 2012\Projects\nurl\nurlTests\obj\Debug\nurlTests.csprojResolveAssemblyReference.cache
+C:\Users\jerome\documents\visual studio 2012\Projects\nurl\nurlTests\obj\Debug\nurlTests.dll
+C:\Users\jerome\documents\visual studio 2012\Projects\nurl\nurlTests\obj\Debug\nurlTests.pdb
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\bin\Debug\nurlTests.dll
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\bin\Debug\nurlTests.pdb
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\bin\Debug\nunit.framework.dll
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\bin\Debug\nunit.framework.xml
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\obj\Debug\nurlTests.csprojResolveAssemblyReference.cache
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\obj\Debug\nurlTests.dll
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\obj\Debug\nurlTests.pdb
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\bin\Debug\nurl.exe
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\bin\Debug\nurl.pdb

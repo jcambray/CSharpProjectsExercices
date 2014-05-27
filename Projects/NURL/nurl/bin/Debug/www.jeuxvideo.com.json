@@ -1,0 +1,644 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>JEUXVIDEO.COM - La RÃ©fÃ©rence des Jeux VidÃ©o sur PC et Consoles !</title>
+<meta name="description" content="Jeuxvideo.com est le premier site d'information sur l'actualitÃ© du jeux vidÃ©o. Vous voulez suivre les news, les tests, les aperÃ§us des jeux de vos consoles favorites (PC, playstation 3 et playstation 4, xbox 360 et xbox one, Nintendo Wii U et 3DS, PSP VITA, et sur smartphone iPhone ou Android) ? Vous aimez les chroniques ? Alors vous Ãªtes au bon endroit, n'hÃ©sitez plus et rejoignez nous sur jeuxvideo.com" />
+<meta name="robots" content="index, follow, all" />
+<meta name="classification" content="jeux video" />
+<meta name="language" content="fr" />
+<meta name="resource-type" content="document" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta property="fb:app_id" content="202446416762"/>
+<meta property="fb:admins" content="100000770696251,545084345"/>
+<meta name="google-site-verification" content="sQCbr5ZKg7HOtW7wf-ZEySJ-3L_fTtPdI9IKU0-HtNM" />
+<link rel="canonical" href="http://www.jeuxvideo.com/" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link rel="alternate" href="http://m.jeuxvideo.com/etajvbis.htm" media="only screen and (max-width: 640px)" />
+<link rel="alternate" type="application/rss+xml" title="JeuxVideo.com (RSS)" href="http://www.jeuxvideo.com/rss/rss.xml" />
+<link href="/css/defaut/homepage.css" rel="stylesheet" type="text/css" />
+<link rel="publisher" href="https://plus.google.com/105261500849864742219/" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+<script type="text/javascript" src="/js/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="/oi/js/modal.js"></script>
+<script type="text/javascript"> var ns_tc_time = +new Date();</script>
+</head>
+<body id="accueil">
+<div id="global">
+<div id="new_header">
+<div id="header">
+<p id="logo"><a href="http://www.jeuxvideo.com"><img src="http://image.jeuxvideo.com/pics/logo1.gif" alt="Accueil jeuxvideo.com" /></a></p>
+
+<div id="connexion">
+<div id="compte"><a href="/moncompte/moncompte.php?oper=1" rel="nofollow">CrÃ©er un compte</a></div>
+<div id="connect"><a href="#dialog" id="modal">Se connecter</a></div>
+<div id="select_skin"> <img onclick="return switch_bleu();" src="http://image.jeuxvideo.com/pics/skin_select_bleu.png" alt="SÃ©lectionner la skin bleue" /> <img onclick="return switch_jaune();" src="http://image.jeuxvideo.com/pics/skin_select_jaune.png" alt="SÃ©lectionner la skin jaune" /> </div>
+</div>
+
+<div id="recherche">
+<form id="rech" action="http://www.jeuxvideo.com/cgi-bin/rech_new.cgi" accept-charset="utf-8" method="get" onsubmit="return valid_recherche(this);">
+<fieldset>
+<legend>Rechercher</legend>
+<input name="iehack" type="hidden" value="&#9855;" />
+<input name="texte" id="rech_txt" value="" />
+<select name="type" id="rech_ou">
+<option value="0" selected="selected">Dans les jeux</option>
+<option value="1">Dans les news</option>
+<option value="2">Dans les articles</option>
+<option value="3">Dans les astuces</option>
+<option value="4">Dans les vidÃ©os</option>
+<option value="5">Dans les images</option>
+<option value="6">Dans les downloads</option>
+</select>
+<button id="rech_valid" type="submit"><span>Valider</span></button>
+<input name="red" type="hidden" value="1" />
+</fieldset>
+</form>
+</div>
+</div>
+
+<table id="table_menu_mc" border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td><div id="menu_mc">
+<ul>
+<li id="mc_accueil"><a href="http://www.jeuxvideo.com/"><span>ACCUEIL</span></a></li>
+<li id="mc_pc"><a href="http://www.jeuxvideo.com/pc.htm"><span>PC</span></a></li>
+<li id="mc_ps4"><a href="http://www.jeuxvideo.com/ps4-playstation-4.htm"><span>PS4</span></a></li>
+<li id="mc_xboxone"><a href="http://www.jeuxvideo.com/xbox-one-xone-xo.htm"><span>ONE</span></a></li>
+<li id="mc_wiiu"><a href="http://www.jeuxvideo.com/wii-u-nintendo-wii-wiiu.htm"><span>Wii U</span></a></li>
+<li id="mc_ps3"><a href="http://www.jeuxvideo.com/ps3-playstation-3.htm"><span>PS3</span></a></li>
+<li id="mc_x360"><a href="http://www.jeuxvideo.com/x360-xbox-360.htm"><span>360</span></a></li>
+<li id="mc_n3ds"><a href="http://www.jeuxvideo.com/3ds-nintendo-3ds.htm"><span>3DS</span></a></li>
+<li id="mc_vita"><a href="http://www.jeuxvideo.com/ps-vita-playstation-vita.htm"><span>VITA</span></a></li>
+<li id="mc_iphone"><a href="http://www.jeuxvideo.com/apple-iphone-ipod-touch.htm"><span>iPHONE</span></a></li>
+<li id="mc_android"><a href="http://www.jeuxvideo.com/android.htm"><span>ANDROID</span></a></li>
+<li id="mc_web"><a href="http://www.jeuxvideo.com/actualite-free-to-play.htm"><span>F2P</span></a></li>
+<li id="mc_sponso"><a target="blank" style="background:url(http://image.jeuxvideo.com/sponso_img/ope_img/ope_wolfenstein/boutonmenu_wolfenstein.png?1);" href="http://ad.himediadx.com/clktrb?id=339867"></a></li>
+</ul>
+</div></td>
+</tr>
+</table>
+<div class="wunderloop"></div>
+</div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" id="banner_jv" summary=""><tr><td><div></div></td></tr></table>
+<div id="page">
+<div id="contenu">
+<!-- CENTRE / debut -->
+<div id="col1">
+<!-- ACCROCHES UNE -->
+<h1 class="titre_page"><span>Tous les jeux vidÃ©o sur <font color="#FF6600">jeuxvideo</font><font color="#0081AA">.com</font></span></h1>
+<div class="accroches2">
+<div class="acc1">
+<h3 class="titre_bloc"><span>En direct</span></h3><ul><li><h4><a href="http://www.jeuxvideo.com/gaming-live/tv-mmo-jeuxmulti.htm#infos"><img width="172" height="95" src="http://image.jeuxvideo.com/newsaccroches/140110610028041.jpg" alt="En direct A partir de 20h30 : PVP sur The Elder Scrolls Online !" /><span>&#160;</span>
+
+A partir de 20h30 : PVP sur The Elder Scrolls Online !</a></h4></li>
+<li class="txt_accroche">La guilde Metatrone vous emmÃ¨ne au combat.</li>
+<li class="lien_base"> <a href="http://www.jeuxvideo.com/gaming-live/tv-mmo-jeuxmulti.htm">Voir la vidÃ©o</a>
+</li>
+</ul></div>
+<div class="acc2">
+<h3 class="titre_bloc"><span class="txt">Le Fond De L&#39;Affaire</span></h3><ul><li><h4><a href="http://www.jeuxvideo.com/chroniques-video/0000/00009342/le-fond-de-l-affaire-s-t-a-l-k-e-r-shadow-of-chernobyl-pc-la-serie-s-t-a-l-k-e-r-00120730.htm#infos"><img width="172" height="95" src="http://image.jeuxvideo.com/chroniques-images/0012/s.t.a.l.k.e.r.-shadow-of-chernobyl-pc-00120730-1401088491-1401090890-accroche.jpg" alt="Chronique La sÃ©rie S.T.A.L.K.E.R." /><span>&#160;</span>
+
+La sÃ©rie S.T.A.L.K.E.R.</a></h4></li>
+<li class="txt_accroche">DÃ©couvrez les secrets de la Zone et des Stalkers !</li>
+<li class="lien_base"> <a href="http://www.jeuxvideo.com/chroniques-video/0000/00009342/le-fond-de-l-affaire-s-t-a-l-k-e-r-shadow-of-chernobyl-pc-la-serie-s-t-a-l-k-e-r-00120730.htm">Voir la vidÃ©o</a>
+</li>
+</ul></div>
+<div class="acc3">
+<h3 class="titre_bloc"><span>En direct</span></h3><ul><li><h4><a href="http://www.jeuxvideo.com/gaming-live/tv01.htm#infos"><img width="172" height="95" src="http://image.jeuxvideo.com/newsaccroches/140109772928095.jpg" alt="En direct En direct de midi Ã  20H sur Gaming Live TV1" /><span>&#160;</span>
+
+En direct de midi Ã  20H sur Gaming Live TV1</a></h4></li>
+<li class="txt_accroche">Let's Play avec Alexclick, Mister MV, Ken Bogard, et pas mal de surprises !</li>
+<li class="lien_base"> <a href="http://www.jeuxvideo.com/gaming-live/tv01.htm">Voir la vidÃ©o</a>
+</li>
+</ul></div>
+<div class="acc1">
+<h3 class="titre_bloc"><span>AperÃ§u</span></h3><ul><li><h4><a href="http://www.jeuxvideo.com/articles/0001/00018944-games-of-glory-preview.htm#infos"><img width="172" height="95" src="http://image.jeuxvideo.com/images/pc/g/a/games-of-glory-pc-00z.jpg" alt="AperÃ§u Games of Glory, nouveau venu chez les MOBA - PC" />
+
+Games of Glory, nouveau venu chez les MOBA</a></h4></li>
+<li class="txt_accroche">Un nouvel arrivant tente de se faire remarquer.</li>
+<li class="lien_base"> <a href="http://www.jeuxvideo.com/articles/0001/00018944-games-of-glory-preview.htm#voir"><img src="http://image.jeuxvideo.com/pics/mc/pc.gif" alt="AperÃ§u Games of Glory, nouveau venu chez les MOBA - PC" /></a>
+</li>
+</ul></div>
+<div class="acc2">
+<h3 class="titre_bloc"><span>AperÃ§u</span></h3><ul><li><h4><a href="http://www.jeuxvideo.com/articles/0001/00018965-sniper-elite-iii-preview.htm#infos"><img width="172" height="95" src="http://image.jeuxvideo.com/images/p4/s/n/sniper-elite-iii-playstation-4-ps4-00z.jpg" alt="AperÃ§u Sniper Elite III : Entre esthÃ©tisme et Ã©volution - PlayStation 4" />
+
+Sniper Elite III : Entre esthÃ©tisme et Ã©volution</a></h4></li>
+<li class="txt_accroche">Coup d'oeil sur le troisiÃ¨me Ã©pisode de la saga.</li>
+<li class="lien_base"> <a href="http://www.jeuxvideo.com/articles/0001/00018965-sniper-elite-iii-preview.htm#voir"><img src="http://image.jeuxvideo.com/pics/mc/ps4.gif" alt="AperÃ§u Sniper Elite III : Entre esthÃ©tisme et Ã©volution - PlayStation 4" /></a>
+ <a href="http://www.jeuxvideo.com/articles/0001/00018966-sniper-elite-iii-preview.htm#voir"><img src="http://image.jeuxvideo.com/pics/mc/xboxone.gif" alt="AperÃ§u Sniper Elite III : Entre esthÃ©tisme et Ã©volution - Xbox One" /></a>
+ <a href="http://www.jeuxvideo.com/articles/0001/00018967-sniper-elite-iii-preview.htm#voir"><img src="http://image.jeuxvideo.com/pics/mc/pc.gif" alt="AperÃ§u Sniper Elite III : Entre esthÃ©tisme et Ã©volution - PC" /></a>
+</li>
+</ul></div>
+<div class="acc3">
+<h3 class="titre_bloc"><span class="txt">Merci Dorian</span></h3><ul><li><h4><a href="http://www.jeuxvideo.com/chroniques-video/00000512/merci-dorian-le-realisme-00120733.htm#infos"><img width="172" height="95" src="http://image.jeuxvideo.com/chroniques-images/0012/le-r-alisme-00120733-1401006603-1401007943-accroche.jpg" alt="Chronique Le rÃ©alisme dans les jeux vidÃ©o" /><span>&#160;</span>
+
+Le rÃ©alisme dans les jeux vidÃ©o</a></h4></li>
+<li class="txt_accroche">Dorian sâ€™intÃ©resse aujourd'hui Ã  la notion de rÃ©alisme dans le jeu vidÃ©o.</li>
+<li class="lien_base"> <a href="http://www.jeuxvideo.com/chroniques-video/00000512/merci-dorian-le-realisme-00120733.htm">Voir la vidÃ©o</a>
+</li>
+</ul></div>
+
+</div>
+<!-- NEWS -->
+<h2 class="titre_page"><span>Toute l'actualitÃ© du jeu vidÃ©o</span></h2>
+<div id="hp_actu" class="col1-1-3">
+<div class="dv1-3 accroches2 bloc1">
+<h3 class="titre_bloc"><span>News</span></h3><ul><li><h4><a href="http://www.jeuxvideo.com/news/2014/00072278-les-videos-de-la-semaine-evolve-batman-watch-dogs.htm#infos"><img width="172" height="95" src="http://image.jeuxvideo.com/newsaccroches/140086090121237.jpg" alt="News Les 5 vidÃ©os de la semaine" />
+
+Les 5 vidÃ©os de la semaine</a></h4></li>
+<li class="txt_accroche">DÃ©couvrez les vidÃ©os qui nous ont fait vibrer !</li>
+<li class="lien_base"> <a href="http://www.jeuxvideo.com/news/2014/00072278-les-videos-de-la-semaine-evolve-batman-watch-dogs.htm">Lire la suite</a>
+</li>
+</ul>
+</div >
+<div class="dv2-3 bloc1">
+<h3 class="titre_bloc"><span>Heure par heure</span></h3>
+<div class="bloc_inner">
+<ul class="liste_liens">
+<li><strong>16:06<a href="http://www.jeuxvideo.com/news/2014/00072300-le-tournage-de-warcraft-est-termine.htm"> Le tournage de Warcraft est terminÃ©</a></strong></li>
+<li><strong>15:12<a href="http://www.jeuxvideo.com/news/2014/00072299-dragon-age-inquisition-et-la-decoration-d-interieur.htm" title="Dragon Age Inquisition et la dÃ©coration d&#39;intÃ©rieur"> Dragon Age Inquisition et la dÃ©coration d...</a></strong></li>
+<li><strong>15:11<a href="http://www.jeuxvideo.com/news/2014/00072298-dragon-s-profete-son-anniversaire.htm"> Dragon's ProfÃªte son anniversaire</a></strong></li>
+<li><strong>14:31<a href="http://www.jeuxvideo.com/news/2014/00072297-meilleures-ventes-de-jeux-en-france-semaine-20.htm" title="Meilleures ventes de jeux en France - Semaine 20"> Meilleures ventes de jeux en France - Sem...</a></strong></li>
+<li><strong>11:51<a href="http://www.jeuxvideo.com/news/2014/00072294-world-of-speed-presente-sa-camaro-ss.htm"> World of Speed prÃ©sente sa Camaro SS</a></strong></li>
+<li><strong>11:00<a href="http://www.jeuxvideo.com/news/2014/00072292-images-de-naruto-shippuden-ultimate-ninja-storm-revolution.htm" title="Images de Naruto Shippuden : Ultimate Ninja Storm Revolution"> Images de Naruto Shippuden : Ultimate Nin...</a></strong></li>
+<li><strong>10:52<a href="http://www.jeuxvideo.com/news/2014/00072293-images-de-risen-3-titan-lords.htm"> Images de Risen 3 : Titan Lords</a></strong></li>
+<li><strong>10:27<a href="http://www.jeuxvideo.com/news/2014/00072291-dofus-pour-les-tous-petits.htm"> Dofus pour les tous petits</a></strong></li>
+<li><strong>10:17<a href="http://www.jeuxvideo.com/news/2014/00072290-l-agent-de-rockstar-peut-etre-toujours-en-vie.htm" title="L&#39;Agent de Rockstar peut-Ãªtre toujours en vie"> L'Agent de Rockstar peut-Ãªtre toujours en...</a></strong></li>
+<li><strong>09:32<a href="http://www.jeuxvideo.com/news/2014/00072289-sony-se-lance-dans-la-course-a-la-chine.htm"> Sony se lance dans la course Ã  la Chine</a></strong></li>
+<li>25/05<a href="http://www.jeuxvideo.com/news/2014/00072265-live-mario-kart-8-mercredi-28-mai-de-18h-a-19h.htm" title="Live Mario Kart 8 : Mercredi 28 mai de 18h Ã  19h"> Live Mario Kart 8 : Mercredi 28 mai de 18h Ã ...</a></li>
+<li>25/05<a href="http://www.jeuxvideo.com/news/2014/00072274-live-watch-dogs-mardi-27-mai-de-18h-a-20h.htm"> Live Watch Dogs : Mardi 27 mai de 18h Ã  20h</a></li>
+<li>25/05<a href="http://www.jeuxvideo.com/news/2014/00072261-lapetitepelle-dessine-jeuxvideo-com-n-43.htm"> LaPetitePelle dessine jeuxvideo.com - NÂ°43</a></li>
+<li>25/05<a href="http://www.jeuxvideo.com/news/2014/00072278-les-videos-de-la-semaine-evolve-batman-watch-dogs.htm" title="Les vidÃ©os de la semaine : Evolve, Batman, Watch Dogs..."> Les vidÃ©os de la semaine : Evolve, Batman, W...</a></li>
+<li>24/05<a href="http://www.jeuxvideo.com/news/2014/00072288-pokemon-x-y-bientot-un-nouveau-motif-pour-prismillon.htm" title="PokÃ©mon X&#38;Y : BientÃ´t un nouveau motif pour Prismillon"> PokÃ©mon X&#38;Y : BientÃ´t un nouveau motif pour ...</a></li>
+
+</ul>
+<ul>
+<li class="lien_base"><a href="http://www.jeuxvideo.com/news.htm">News</a> | <a href="http://www.jeuxvideo.com/actualite-jeux-en-ligne.htm">Jeux Web</a> | <a href="http://www.jeuxvideo.com/demos.htm">Jeux, dÃ©mos et patches</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- ARTICLES -->
+<h2 class="titre_page"><span>Tests - AperÃ§us - Dossiers</span></h2>
+<div id="hp_articles" class="col2-1-3">
+<div class="dv1-3 accroches2 bloc2">
+<h3 class="titre_bloc"><span>Dossier</span></h3><ul><li><h4><a href="http://www.jeuxvideo.com/dossiers/00018328/la-saga-might-and-magic-3do.htm#infos"><img width="172" height="95" src="http://image.jeuxvideo.com/images/dossiers/00018328/00018328-1400861404-accroche.jpg" alt="Dossier La saga Might &#38; Magic" />
+
+La saga Might &#38; Magic</a></h4></li>
+<li class="txt_accroche">DÃ©couvrez notre dossier complet, rÃ©alisÃ© par Monsieur Spi !</li>
+<li class="lien_base"> <a href="http://www.jeuxvideo.com/dossiers/00018328/la-saga-might-and-magic-3do.htm">Lire la suite</a>
+</li>
+</ul>
+</div>
+<div class="dv2-3 bloc2">
+<h3 class="titre_bloc"><span>Les Derniers articles</span></h3>
+<div class="bloc_inner">
+<ul class="liste_liens">
+<li><strong><a href="http://www.jeuxvideo.com/articles/0001/00019627-monochroma-test.htm"><span>Test : </span>Monochroma - PC</a>
+</strong></li>
+<li><strong><a href="http://www.jeuxvideo.com/articles/0001/00019628-monochroma-test.htm"><span>Test : </span>Monochroma - Mac</a>
+</strong></li>
+<li><strong><a href="http://www.jeuxvideo.com/articles/0001/00018944-games-of-glory-preview.htm"><span>AperÃ§u : </span>Games of Glory - PC</a>
+</strong></li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00018964-sniper-elite-iii-preview.htm"><span>AperÃ§u : </span>Sniper Elite III - 360</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00018966-sniper-elite-iii-preview.htm"><span>AperÃ§u : </span>Sniper Elite III - ONE</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00018967-sniper-elite-iii-preview.htm"><span>AperÃ§u : </span>Sniper Elite III - PC</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00018963-sniper-elite-iii-preview.htm"><span>AperÃ§u : </span>Sniper Elite III - PS3</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00018965-sniper-elite-iii-preview.htm"><span>AperÃ§u : </span>Sniper Elite III - PS4</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00019626-the-amazing-spider-man-2-test.htm"><span>Test : </span>The Amazing Spider-Man 2 - iPhone</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/dossiers/00018328/la-saga-might-and-magic-3do.htm" title="Dossier : La saga Might and Magic - 3DO - Apple2 - Mac - PC - PS1 - PS2"><span>Dossier : </span>La saga M... - 3DO - Apple2 - Mac - PC - PS1 - PS2</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00019623-wolfenstein-the-new-order-test.htm"><span>Test : </span>Wolfenstein : The New Order - PC</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00018959-ea-sports-ufc-preview.htm"><span>AperÃ§u : </span>EA Sports UFC - PS4</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00018958-ea-sports-ufc-preview.htm"><span>AperÃ§u : </span>EA Sports UFC - ONE</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00019625-transistor-test.htm"><span>Test : </span>Transistor - PS4</a>
+</li>
+<li><a href="http://www.jeuxvideo.com/articles/0001/00019624-transistor-test.htm"><span>Test : </span>Transistor - PC</a>
+</li>
+
+</ul>
+<ul>
+<li class="lien_base"><a href="http://www.jeuxvideo.com/tests.htm">Tests</a> | <a href="http://www.jeuxvideo.com/previews.htm">AperÃ§us</a> | <a href="http://www.jeuxvideo.com/dossiers.htm">Dossiers</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- VIDEOS -->
+<h2 class="titre_page"><span>Toutes les vidÃ©os</span></h2>
+<div id="hp_videos" class="col1-1-3">
+<div class="dv1-3 accroches2 bloc1">
+<h3 class="titre_bloc"><span>Chronique</span></h3><ul><li><h4><a href="http://www.jeuxvideo.com/chroniques-video/00000493/l-histoire-du-jeu-video-l-age-d-or-de-l-arcade-00120676.htm#infos"><img width="172" height="95" src="http://image.jeuxvideo.com/chroniques-images/0012/l-age-d-or-de-l-arcade-00120676-1400679247-1400687320-accroche.jpg" alt="Chronique L&#39;Ã¢ge d&#39;or du jeu vidÃ©o" /><span>&#160;</span>
+
+L&#39;Ã¢ge d&#39;or du jeu vidÃ©o</a></h4></li>
+<li class="txt_accroche">L'Ã©quipe de l'HJV revient sur un temps qui ne dira pas grand-chose aux moins de 30 ans.</li>
+<li class="lien_base"> <a href="http://www.jeuxvideo.com/chroniques-video/00000493/l-histoire-du-jeu-video-l-age-d-or-de-l-arcade-00120676.htm">Voir la vidÃ©o</a>
+</li>
+</ul>
+</div >
+<div class="dv2-3 bloc1">
+<h3 class="titre_bloc"><span>Les derniÃ¨res vidÃ©os</span></h3>
+<div class="bloc_inner">
+<ul class="liste_liens">
+<li><strong><a href="http://www.jeuxvideo.com/videos-editeurs/0005/00052840/football-club-manager-pc-un-mmosg-tres-pousse-00120740.htm" title="B-annonce : Football Club Manager - Un MMOSG trÃ¨s poussÃ© - PC"><span>B-annonce : </span>Football Club Manager - Un MMOSG... - PC</a></strong></li>
+<li><strong><a href="http://www.jeuxvideo.com/videos-editeurs/0005/00052840/football-club-manager-pc-management-d-equipe-00120739.htm" title="B-annonce : Football Club Manager - Management d&#39;Ã©quipe - PC"><span>B-annonce : </span>Football Club Manager - Manageme... - PC</a></strong></li>
+<li><strong><a href="http://www.jeuxvideo.com/videos-editeurs/0005/00052012/spintires-camions-tout-terrain-simulator-pc-camions-tout-terrain-simulator-00120738.htm" title="B-annonce : SPINTIRES Camions Tout-Terrain Simulator - Camions Tout-Terrain Simulator ! - PC"><span>B-annonce : </span>SPINTIRES Camions Tout-Terrain S... - PC</a></strong></li>
+<li><strong><a href="http://www.jeuxvideo.com/videos-editeurs/0005/00051779/transformers-rise-of-the-dark-spark-pc-trailer-de-gameplay-robotique-00120735.htm" title="B-annonce : Transformers : Rise of the Dark Spark - Trailer de gameplay robotique ! - PC - PS4 - WiiU - ONE"><span>B-annonce : </span>Transformers ... - PC - PS4 - WiiU - ONE</a></strong></li>
+<li><strong><a href="http://www.jeuxvideo.com/chroniques-video/0000/00009342/le-fond-de-l-affaire-s-t-a-l-k-e-r-shadow-of-chernobyl-pc-la-serie-s-t-a-l-k-e-r-00120730.htm" title="Chronique : Le Fond De L&#39;Affaire - S.T.A.L.K.E.R. : Shadow of Chernobyl - La sÃ©rie S.T.A.L.K.E.R. - PC"><span>Chronique : </span>Le Fond De L'Affaire - S.T.A.L.K... - PC</a></strong></li>
+<li><strong><a href="http://www.jeuxvideo.com/videos-editeurs/0004/00045439/shiness-pc-apercu-des-zones-de-jeu-00120734.htm" title="B-annonce : Shiness - AperÃ§u des zones de jeu - PC - PS4"><span>B-annonce : </span>Shiness - AperÃ§u des zones... - PC - PS4</a></strong></li>
+<li><a href="http://www.jeuxvideo.com/chroniques-video/00000512/merci-dorian-le-realisme-00120733.htm" ><span>Chronique : </span>Merci Dorian - Le rÃ©alisme</a></li>
+<li><a href="http://www.jeuxvideo.com/chroniques-video/00000493/l-histoire-du-jeu-video-l-age-d-or-de-l-arcade-00120676.htm" title="Chronique : L&#39;histoire du jeu vidÃ©o - L&#39;Ã¢ge d&#39;or de l&#39;arcade"><span>Chronique : </span>L'histoire du jeu vidÃ©o - L'Ã¢ge d'or ...</a></li>
+<li><a href="http://www.jeuxvideo.com/making-of/0005/00050143/soldats-inconnus-memoires-de-la-grande-guerre-pc-art-emotions-00120732.htm" title="Making of : Soldats Inconnus : MÃ©moires de la Grande Guerre - Art &#38; Emotions - PC - 360 - PS3 - ONE - PS4"><span>Making of : </span>Soldats Inc... - PC - 360 - PS3 - ONE - PS4</a></li>
+<li><a href="http://www.jeuxvideo.com/videos-editeurs/0004/00049081/the-incredible-adventures-of-van-helsing-ii-pc-van-helsing-est-de-sortie-00120731.htm" title="B-annonce : The Incredible Adventures of Van Helsing II - Van Helsing est de sortie - PC"><span>B-annonce : </span>The Incredible Adventures of Van He... - PC</a></li>
+<li><a href="http://www.jeuxvideo.com/chroniques-video/0000/00007900/speed-game-alex-kidd-in-miracle-world-master-system-defi-live-en-moins-de-20-minutes-00120717.htm" title="Chronique : Speed Game - Alex Kidd in Miracle World - DÃ©fi live en moins de 20 minutes ! - MASTER"><span>Chronique : </span>Speed Game - Alex Kidd in Mirac... - MASTER</a></li>
+<li><a href="http://www.jeuxvideo.com/gaming-live/0004/00048406/minimum-pc-melting-pot-minimaliste-00120680.htm" ><span>Gaming Live : </span>Minimum - Melting-pot minimaliste - PC</a></li>
+<li><a href="http://www.jeuxvideo.com/chroniques-video/00000354/l-univers-du-jeu-independant-ludum-dare-n-29-00120701.htm" title="Chronique : L&#39;univers du jeu indÃ©pendant - Ludum Dare nÂ°29"><span>Chronique : </span>L'univers du jeu indÃ©pendant - Ludum ...</a></li>
+<li><a href="http://www.jeuxvideo.com/gaming-live/0004/00048160/transistor-pc-digne-heritier-de-bastion-00120722.htm" title="Gaming Live : Transistor - Digne hÃ©ritier de Bastion - PC - PS4"><span>Gaming Live : </span>Transistor - Digne hÃ©ritier... - PC - PS4</a></li>
+<li><a href="http://www.jeuxvideo.com/videos-editeurs/0004/00047549/mugen-souls-z-playstation-3-ps3-trailer-de-gameplay-gcastle-00120728.htm" title="B-annonce : Mugen Souls Z - Trailer de gameplay - GCastle - PS3"><span>B-annonce : </span>Mugen Souls Z - Trailer de gamepla... - PS3</a></li>
+
+</ul>
+<ul>
+<li class="lien_base"><a href="http://www.jeuxvideo.com/videos-de-jeux.htm">Toutes les vidÃ©os</a></li>
+<li class="lien_base"><a href="http://www.jeuxvideo.com/gaming_live.htm">Gaming Live</a> | <a href="http://www.jeuxvideo.com/reportages-videos-jeux.htm">Reportages</a> | <a href="http://www.jeuxvideo.com/extraits-videos-jeux.htm">Extraits</a> | <a href="http://www.jeuxvideo.com/bandes-annonces-videos-jeux.htm">Bandes-Annonces</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- ASTUCES -->
+<h2 class="titre_page"><span>Toutes les astuces</span></h2>
+<div id="hp_astuces" class="col2-1-3">
+<div class="dv1-3 accroches2 bloc2">
+<h3 class="titre_bloc"><span>Solution complÃ¨te</span></h3><ul><li><h4><a href="http://www.jeuxvideo.com/cheats/00050059/trucs-et-astuces-bound-by-flame-playstation-4-ps4.htm#infos"><img width="172" height="95" src="http://image.jeuxvideo.com/images/p4/b/o/bound-by-flame-playstation-4-ps4-00y.jpg" alt="Solution complÃ¨te Bound by Flame - PlayStation 4" />
+
+Bound by Flame</a></h4></li>
+<li class="txt_accroche">Nous avons dissÃ©quÃ© pour vous le nouveau RPG du studio Spiders (Mars : War Logs).</li>
+<li class="lien_base"> <a href="http://www.jeuxvideo.com/cheats/00050059/trucs-et-astuces-bound-by-flame-playstation-4-ps4.htm#voir"><img src="http://image.jeuxvideo.com/pics/mc/ps4.gif" alt="Solution complÃ¨te Bound by Flame - PlayStation 4" /></a>
+ <a href="http://www.jeuxvideo.com/cheats/00048912/trucs-et-astuces-bound-by-flame-pc.htm#voir"><img src="http://image.jeuxvideo.com/pics/mc/pc.gif" alt="Solution complÃ¨te Bound by Flame - PC" /></a>
+ <a href="http://www.jeuxvideo.com/cheats/00048914/trucs-et-astuces-bound-by-flame-xbox-360.htm#voir"><img src="http://image.jeuxvideo.com/pics/mc/x3.gif" alt="Solution complÃ¨te Bound by Flame - Xbox 360" /></a>
+</li>
+</ul>
+</div >
+<div class="dv2-3 bloc2">
+<h3 class="titre_bloc"><span>Les derniÃ¨res astuces</span></h3>
+<div class="bloc_inner">
+<ul class="liste_liens">
+<li><strong><a href="http://www.jeuxvideo.com/cheats/00029350/astuces-red-dead-redemption-xbox-360-00037625.htm"><span>Astuces </span>Red Dead Redemption 360</a>
+</strong></li><li><strong><a href="http://www.jeuxvideo.com/cheats/00042194/trucs-et-astuces-diablo-iii-reaper-of-souls-pc.htm"><span>Solution </span>Diablo III  Reaper of Souls PC</a>
+</strong></li><li><strong><a href="http://www.jeuxvideo.com/cheats/00044811/astuces-the-elder-scrolls-online-pc-00037618.htm"><span>Astuces </span>The Elder Scrolls Online PC</a>
+</strong></li><li><strong><a href="http://www.jeuxvideo.com/cheats/00047495/astuces-disney-infinity-iphone-ipod-00037610.htm"><span>Astuces </span>Disney Infinity iPhone</a>
+</strong></li><li><strong><a href="http://www.jeuxvideo.com/cheats/00050422/astuces-kirby-triple-deluxe-nintendo-3ds-00037596.htm"><span>Astuces </span>Kirby  Triple Deluxe 3DS</a>
+</strong></li><li><strong><a href="http://www.jeuxvideo.com/cheats/00052569/astuces-maestria-s-flower-opus-1-iphone-ipod-00037603.htm"><span>Astuces </span>Maestria's Flower - Opus 1 iPhone</a>
+</strong></li><li><a href="http://www.jeuxvideo.com/cheats/00029350/astuces-red-dead-redemption-xbox-360-00037626.htm"><span>Astuces </span>Red Dead Redemption 360</a>
+</li><li><a href="http://www.jeuxvideo.com/cheats/00042502/trucs-et-astuces-the-witch-and-the-hundred-knight-playstation-3-ps3.htm"><span>Solution </span>The Witch and the Hundred Knight PS3</a>
+</li><li><a href="http://www.jeuxvideo.com/cheats/00044112/astuces-avadon-the-black-fortress-pc-00037597.htm"><span>Codes </span>Avadon  The Black Fortress PC</a>
+</li><li><a href="http://www.jeuxvideo.com/cheats/00048981/astuces-killer-instinct-xbox-one-00037612.htm"><span>Astuces </span>Killer Instinct ONE</a>
+</li><li><a href="http://www.jeuxvideo.com/cheats/00051724/astuces-goat-simulator-pc-00037619.htm"><span>Guide VidÃ©o </span>Goat Simulator PC</a>
+</li><li><a href="http://www.jeuxvideo.com/cheats/00052569/astuces-maestria-s-flower-opus-1-iphone-ipod-00037604.htm"><span>Astuces </span>Maestria's Flower - Opus 1 iPhone</a>
+</li>
+</ul>
+<ul>
+<li class="lien_base"><a href="http://www.jeuxvideo.com/cheats.htm">Toutes les Astuces et Solutions</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- CENTRE / fin -->
+<!-- COL DROITE / debut -->
+<div id="col2">
+<div id="promo_video_hp"><a href="http://www.jeuxvideo.com/gaming-live/tv-dota2.htm"><img src="http://image.jeuxvideo.com/mise-en-avant/2014/coldroite_1400256009.jpg" /></a></div>
+<div id="pub_carre1">
+<script type="text/javascript"><!--
+if(typeof(NB_AD) === 'undefined') {
+var NB_AD=1;
+} else {
+NB_AD++;
+ } 
+if(typeof(HAS_LOAD_UT) === 'undefined') var HAS_LOAD_UT=0;
+if(HAS_LOAD_UT === 0) {
+var adlSite = 'jeuxvideo.com';
+var adlZone = 'homepage'; 
+var adlHasDcopt = false;
+var adlKv='editeur=' + nom_editeur + ';type=' + nom_type + ';plateforme=' + nom_mach + ';nom=' + nom_jeu + ';classification='+ classification + ';recherche=' + motsearch + ';';
+var adlPro = window.location.protocol == 'https:' ? 'https:' : 'http:';
+document.write('<'+'sc'+'ript type= "text/javascript" src="'+ adlPro+'//js.himediads.com/js?lang=fr&amp;s='+adlSite+'&amp;z='+adlZone+'&amp;d='+Math.floor(Math.random()*10000000000)+'"><\/'+'sc'+'ript>');
+HAS_LOAD_UT=1;}
+//-->
+</script>
+<script type="text/javascript"><!--
+if (typeof getAdLinkAdTag =='function') getAdLinkAdTag( '300x250',undefined,undefined,undefined,undefined,undefined, '250x250' );
+//-->
+</script>
+<noscript>
+<a href="http://rd.himediads.com/fr/jump/jeuxvideo.com/homepage;sz=300x250;tile=1;ord=650905697226" target="_blank">
+<img src="http://rd.himediads.com/fr/ad/jeuxvideo.com/homepage;sz=300x250;tile=1;ord=650905697226?" border="0" width="1" height="1" alt="" />
+</a>
+</noscript>
+<script type="text/javascript"><!--
+if (!navigator.userAgent.match(/iPhone/i) && !navigator.userAgent.match(/iPod/i) && !navigator.userAgent.match(/iPad/i) && !navigator.userAgent.match(/Android/i) && !navigator.userAgent.match(/Playstation/i) && navigator.cookieEnabled) {
+deb = document.cookie.indexOf("jvbillboard=")
+if (deb  === -1) {
+var ma_date = new Date();
+ma_date.setTime(ma_date.getTime()+(1*1*10*60*1000));
+document.cookie = "jvbillboard=1;expires=" + ma_date.toGMTString() + ";domain=jeuxvideo.com;path=/";
+if (typeof getAdLinkAdTag =='function') getAdLinkAdTag( '1x1' );
+}
+}
+//-->
+</script>
+
+</div>
+<div class="bloc3" id="meilleurs_jeux"><h3 class="titre_bloc"><span>Les jeux les plus populaires</span></h3><div class="bloc_inner"><div id="j_du_moment" class="on"><h4>Du moment</h4><div><h5><span>Titre et</span> Note</h5><ul><li><span class="group_title"><strong>Wolfenstein : The New Order</strong> - Multi</span> <span class="note_jeu">15.9</span><ul style='display:none;'><li><a href="http://www.jeuxvideo.com/jeux/xbox-360/00048642-wolfenstein-the-new-order.htm"><strong>Wolfenstein : The New Order</strong> - 360</a> <span class="note_jeu">16.8</span></li><li><a href="http://www.jeuxvideo.com/jeux/xbox-one/00048643-wolfenstein-the-new-order.htm"><strong>Wolfenstein : The New Order</strong> - ONE</a> <span class="note_jeu">15.9</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-4-ps4/00048641-wolfenstein-the-new-order.htm"><strong>Wolfenstein : The New Order</strong> - PS4</a> <span class="note_jeu">15.9</span></li><li><a href="http://www.jeuxvideo.com/jeux/pc/00048639-wolfenstein-the-new-order.htm"><strong>Wolfenstein : The New Order</strong> - PC</a> <span class="note_jeu">15.3</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-3-ps3/00048640-wolfenstein-the-new-order.htm"><strong>Wolfenstein : The New Order</strong> - PS3</a> <span class="note_jeu">15.1</span></li></ul></li><li><span class="group_title"><strong>Bound by Flame</strong> - Multi</span> <span class="note_jeu">13.0</span><ul style='display:none;'><li><a href="http://www.jeuxvideo.com/jeux/xbox-360/00048914-bound-by-flame.htm"><strong>Bound by Flame</strong> - 360</a> <span class="note_jeu">14.3</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-3-ps3/00048913-bound-by-flame.htm"><strong>Bound by Flame</strong> - PS3</a> <span class="note_jeu">13.5</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-4-ps4/00050059-bound-by-flame.htm"><strong>Bound by Flame</strong> - PS4</a> <span class="note_jeu">13.0</span></li><li><a href="http://www.jeuxvideo.com/jeux/pc/00048912-bound-by-flame.htm"><strong>Bound by Flame</strong> - PC</a> <span class="note_jeu">12.3</span></li></ul></li><li><span class="group_title"><strong>Child of Light</strong> - Multi</span> <span class="note_jeu">18.0</span><ul style='display:none;'><li><a href="http://www.jeuxvideo.com/jeux/xbox-one/00050149-child-of-light.htm"><strong>Child of Light</strong> - ONE</a> <span class="note_jeu">18.2</span></li><li><a href="http://www.jeuxvideo.com/jeux/pc/00049901-child-of-light.htm"><strong>Child of Light</strong> - PC</a> <span class="note_jeu">18.1</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-4-ps4/00050151-child-of-light.htm"><strong>Child of Light</strong> - PS4</a> <span class="note_jeu">18.0</span></li><li><a href="http://www.jeuxvideo.com/jeux/wii-u-wiiu/00050153-child-of-light.htm"><strong>Child of Light</strong> - WiiU</a> <span class="note_jeu">17.8</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-3-ps3/00050150-child-of-light.htm"><strong>Child of Light</strong> - PS3</a> <span class="note_jeu">16.6</span></li><li><a href="http://www.jeuxvideo.com/jeux/xbox-360/00050148-child-of-light.htm"><strong>Child of Light</strong> - 360</a> <span class="note_jeu">16.6</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-vita/00052782-child-of-light.htm"><strong>Child of Light</strong> - Vita</a> <span class="note_jeu">-</span></li></ul></li><li><span class="group_title"><strong>The Amazing Spider-Man 2</strong> - Multi</span> <span class="note_jeu">14.6</span><ul style='display:none;'><li><a href="http://www.jeuxvideo.com/jeux/android/00052025-the-amazing-spider-man-2.htm"><strong>The Amazing Spider-Man 2</strong> - Android</a> <span class="note_jeu">20.0</span></li><li><a href="http://www.jeuxvideo.com/jeux/xbox-360/00050543-the-amazing-spider-man-2.htm"><strong>The Amazing Spider-Man 2</strong> - 360</a> <span class="note_jeu">14.6</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-3-ps3/00050541-the-amazing-spider-man-2.htm"><strong>The Amazing Spider-Man 2</strong> - PS3</a> <span class="note_jeu">14.4</span></li><li><a href="http://www.jeuxvideo.com/jeux/wii-u-wiiu/00050545-the-amazing-spider-man-2.htm"><strong>The Amazing Spider-Man 2</strong> - WiiU</a> <span class="note_jeu">13.9</span></li><li><a href="http://www.jeuxvideo.com/jeux/pc/00050540-the-amazing-spider-man-2.htm"><strong>The Amazing Spider-Man 2</strong> - PC</a> <span class="note_jeu">13.3</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-4-ps4/00050542-the-amazing-spider-man-2.htm"><strong>The Amazing Spider-Man 2</strong> - PS4</a> <span class="note_jeu">12.7</span></li><li><a href="http://www.jeuxvideo.com/jeux/xbox-one/00050544-the-amazing-spider-man-2.htm"><strong>The Amazing Spider-Man 2</strong> - ONE</a> <span class="note_jeu">12.5</span></li><li><a href="http://www.jeuxvideo.com/jeux/nintendo-3ds/00050546-the-amazing-spider-man-2.htm"><strong>The Amazing Spider-Man 2</strong> - 3DS</a> <span class="note_jeu">10.5</span></li><li><a href="http://www.jeuxvideo.com/jeux/iphone-ipod/00052024-the-amazing-spider-man-2.htm"><strong>The Amazing Spider-Man 2</strong> - iPhone</a> <span class="note_jeu">8.5</span></li></ul></li><li><span class="group_title"><strong>Outlast : Whistleblower</strong> - Multi</span> <span class="note_jeu">15.9</span><ul style='display:none;'><li><a href="http://www.jeuxvideo.com/jeux/playstation-4-ps4/00051867-outlast-whistleblower.htm"><strong>Outlast: Whistleblower</strong> - PS4</a> <span class="note_jeu">18.2</span></li><li><a href="http://www.jeuxvideo.com/jeux/pc/00051866-outlast-whistleblower.htm"><strong>Outlast : Whistleblower</strong> - PC</a> <span class="note_jeu">15.9</span></li></ul></li><li><span class="group_title"><strong>Call of Duty : Ghosts : Devastation</strong> - Multi</span> <span class="note_jeu">13.2</span><ul style='display:none;'><li><a href="http://www.jeuxvideo.com/jeux/playstation-3-ps3/00051976-call-of-duty-ghosts-devastation.htm"><strong>Call of Duty : Ghosts : Devastation</strong> - PS3</a> <span class="note_jeu">13.2</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-4-ps4/00051975-call-of-duty-ghosts-devastation.htm"><strong>Call of Duty : Ghosts : Devastation</strong> - PS4</a> <span class="note_jeu">13.2</span></li><li><a href="http://www.jeuxvideo.com/jeux/xbox-360/00051973-call-of-duty-ghosts-devastation.htm"><strong>Call of Duty : Ghosts : Devastation</strong> - 360</a> <span class="note_jeu">12.0</span></li><li><a href="http://www.jeuxvideo.com/jeux/xbox-one/00051974-call-of-duty-ghosts-devastation.htm"><strong>Call of Duty : Ghosts : Devastation</strong> - ONE</a> <span class="note_jeu">11.8</span></li><li><a href="http://www.jeuxvideo.com/jeux/pc/00051972-call-of-duty-ghosts-devastation.htm"><strong>Call of Duty : Ghosts : Devastation</strong> - PC</a> <span class="note_jeu">9.0</span></li></ul></li><li><span class="group_title"><strong>Batman Arkham Origins - Un Coeur...</strong> - Multi</span> <span class="note_jeu">15.1</span><ul style='display:none;'><li><a title="Batman Arkham Origins - Un Coeur de Glace" href="http://www.jeuxvideo.com/jeux/xbox-360/00051871-batman-arkham-origins-un-coeur-de-glace.htm"><strong>Batman Arkham Origins - Un Coeur...</strong> - 360</a> <span class="note_jeu">15.1</span></li><li><a title="Batman Arkham Origins - Un Coeur de Glace" href="http://www.jeuxvideo.com/jeux/playstation-3-ps3/00051870-batman-arkham-origins-un-coeur-de-glace.htm"><strong>Batman Arkham Origins - Un Coeur...</strong> - PS3</a> <span class="note_jeu">14.7</span></li><li><a title="Batman Arkham Origins - Un Coeur de Glace" href="http://www.jeuxvideo.com/jeux/pc/00051869-batman-arkham-origins-un-coeur-de-glace.htm"><strong>Batman Arkham Origins - Un Coeur...</strong> - PC</a> <span class="note_jeu">12.1</span></li></ul></li><li><span class="group_title"><strong>Titanfall : Expedition</strong> - Multi</span> <span class="note_jeu">10.9</span><ul style='display:none;'><li><a href="http://www.jeuxvideo.com/jeux/xbox-one/00052388-titanfall-expedition.htm"><strong>Titanfall : Expedition</strong> - ONE</a> <span class="note_jeu">10.9</span></li><li><a href="http://www.jeuxvideo.com/jeux/pc/00052387-titanfall-expedition.htm"><strong>Titanfall : Expedition</strong> - PC</a> <span class="note_jeu">8.2</span></li><li><a href="http://www.jeuxvideo.com/jeux/xbox-360/00052389-titanfall-expedition.htm"><strong>Titanfall : Expedition</strong> - 360</a> <span class="note_jeu">-</span></li></ul></li><li><a href="http://www.jeuxvideo.com/jeux/pc/00049734-war-of-the-vikings.htm"><strong>War of the Vikings</strong> - PC</a> <span class="note_jeu">14.4</span></li><li><a href="http://www.jeuxvideo.com/jeux/pc/00052002-farsky.htm"><strong>FarSky</strong> - PC</a> <span class="note_jeu">11.7</span></li></ul><p class="note">Info : la note est calculÃ©e d'aprÃ¨s les notes donnÃ©es par la rÃ©daction et l'ensemble des lecteurs</p></div></div><div id="j_attendus"><h4>Les plus attendus</h4><div><h5><span>Titre et</span> Date</h5><ul><li><a href="http://www.jeuxvideo.com/jeux/wii-u-wiiu/00049043-mario-kart-8.htm"><strong>Mario Kart 8</strong> - WiiU</a> <span class="date_sortie">30/05/2014</span></li><li><span class="group_title"><strong>Call of Duty : Advanced W...</strong> - Multi</a> </span><span class="date_sortie">04/11/2014</span><ul style='display:none;'><li><a title="Call of Duty : Advanced Warfare" href="http://www.jeuxvideo.com/jeux/pc/00051448-call-of-duty-advanced-warfare.htm"><strong>Call of Duty : Advanced W...</strong> - PC</a> <span class="date_sortie">04/11/2014</span></li><li><a title="Call of Duty : Advanced Warfare" href="http://www.jeuxvideo.com/jeux/playstation-4-ps4/00051450-call-of-duty-advanced-warfare.htm"><strong>Call of Duty : Advanced W...</strong> - PS4</a> <span class="date_sortie">04/11/2014</span></li><li><a title="Call of Duty : Advanced Warfare" href="http://www.jeuxvideo.com/jeux/playstation-3-ps3/00052405-call-of-duty-advanced-warfare.htm"><strong>Call of Duty : Advanced W...</strong> - PS3</a> <span class="date_sortie">04/11/2014</span></li><li><a title="Call of Duty : Advanced Warfare" href="http://www.jeuxvideo.com/jeux/xbox-one/00051449-call-of-duty-advanced-warfare.htm"><strong>Call of Duty : Advanced W...</strong> - ONE</a> <span class="date_sortie">04/11/2014</span></li><li><a title="Call of Duty : Advanced Warfare" href="http://www.jeuxvideo.com/jeux/xbox-360/00052406-call-of-duty-advanced-warfare.htm"><strong>Call of Duty : Advanced W...</strong> - 360</a> <span class="date_sortie">04/11/2014</span></li></ul></li><li><span class="group_title"><strong>Naruto Shippuden : Ultima...</strong> - Multi</a> </span><span class="date_sortie">09/2014</span><ul style='display:none;'><li><a title="Naruto Shippuden : Ultimate Ninja Storm Revolution" href="http://www.jeuxvideo.com/jeux/playstation-3-ps3/00050986-naruto-shippuden-ultimate-ninja-storm-revolution.htm"><strong>Naruto Shippuden : Ultima...</strong> - PS3</a> <span class="date_sortie">09/2014</span></li><li><a title="Naruto Shippuden : Ultimate Ninja Storm Revolution" href="http://www.jeuxvideo.com/jeux/xbox-360/00050987-naruto-shippuden-ultimate-ninja-storm-revolution.htm"><strong>Naruto Shippuden : Ultima...</strong> - 360</a> <span class="date_sortie">09/2014</span></li><li><a title="Naruto Shippuden : Ultimate Ninja Storm Revolution" href="http://www.jeuxvideo.com/jeux/pc/00052516-naruto-shippuden-ultimate-ninja-storm-revolution.htm"><strong>Naruto Shippuden : Ultima...</strong> - PC</a> <span class="date_sortie">09/2014</span></li></ul></li><li><a href="http://www.jeuxvideo.com/jeux/nintendo-3ds/00052643-pokemon-saphir-alpha.htm"><strong>PokÃ©mon Saphir Alpha</strong> - 3DS</a> <span class="date_sortie">11/2014</span></li><li><a href="http://www.jeuxvideo.com/jeux/wii-u-wiiu/00045513-super-smash-bros-for-wii-u.htm"><strong>Super Smash Bros. for Wii U</strong> - WiiU</a> <span class="date_sortie">4e T. 2014</span></li><li><a href="http://www.jeuxvideo.com/jeux/nintendo-3ds/00052642-pokemon-rubis-omega.htm"><strong>PokÃ©mon Rubis Omega</strong> - 3DS</a> <span class="date_sortie">11/2014</span></li><li><a href="http://www.jeuxvideo.com/jeux/pc/00041700-wildstar.htm"><strong>Wildstar</strong> - PC</a> <span class="date_sortie">03/06/2014</span></li><li><span class="group_title"><strong>Dragon Age Inquisition</strong> - Multi</a> </span><span class="date_sortie">09/10/2014</span><ul style='display:none;'><li><a href="http://www.jeuxvideo.com/jeux/pc/00040573-dragon-age-inquisition.htm"><strong>Dragon Age Inquisition</strong> - PC</a> <span class="date_sortie">09/10/2014</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-4-ps4/00049198-dragon-age-inquisition.htm"><strong>Dragon Age Inquisition</strong> - PS4</a> <span class="date_sortie">09/10/2014</span></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-3-ps3/00040574-dragon-age-inquisition.htm"><strong>Dragon Age Inquisition</strong> - PS3</a> <span class="date_sortie">09/10/2014</span></li><li><a href="http://www.jeuxvideo.com/jeux/xbox-one/00049197-dragon-age-inquisition.htm"><strong>Dragon Age Inquisition</strong> - ONE</a> <span class="date_sortie">09/10/2014</span></li><li><a href="http://www.jeuxvideo.com/jeux/xbox-360/00040575-dragon-age-inquisition.htm"><strong>Dragon Age Inquisition</strong> - 360</a> <span class="date_sortie">09/10/2014</span></li></ul></li><li><a href="http://www.jeuxvideo.com/jeux/playstation-4-ps4/00047923-driveclub.htm"><strong>#DriveClub</strong> - PS4</a> <span class="date_sortie">08/10/2014</span></li><li><a title="Diablo III : Ultimate Evil Edition" href="http://www.jeuxvideo.com/jeux/playstation-4-ps4/00039058-diablo-iii-ultimate-evil-edition.htm"><strong>Diablo III : Ultimate Evi...</strong> - PS4</a> <span class="date_sortie">19/08/2014</span></li></ul></div></div></div></div>
+
+<div><strong>TÃ©lÃ©charger : <a rel="external" target="_blank" href="http://www.jeuxvideo.com/boutique/redirect.php?ID=00002003&Url=http%3A%2F%2Fjeuxvideo.gamesplanet.com%2Facheter-telecharger-jeux-pc%2FWatch_Dogs-4051-13.html%3Futm_source%3Dboutique%26utm_medium%3DXML">Watch Dogs PC Ã  39,99â‚¬ en...</a></strong><br/><br/></div>
+
+<div id="hp_forums" class="bloc3">
+<h3 class="titre_bloc"><span>Les forums de jeuxvideo.com</span></h3>
+<div class="bloc_inner2">
+<h4>Le Top Forums</h4>
+<ul class="liste_liens">
+<li><strong>
+<a href="http://www.jeuxvideo.com/forums/0-19163-0-1-0-1-0-league-of-legends.htm">1. League of Legends</a></strong></li>
+<li><a href="http://www.jeuxvideo.com/forums/0-29023-0-1-0-1-0-watch-dogs.htm">2. Watch Dogs</a></li>
+<li><a href="http://www.jeuxvideo.com/forums/0-32739-0-1-0-1-0-pokemon-rubis-omega-saphir-alpha.htm">3. PokÃ©mon Rubis OmÃ©ga / Saphir Alpha</a></li>
+<li><a href="http://www.jeuxvideo.com/forums/0-30342-0-1-0-1-0-pokemon-x-y.htm">4. PokÃ©mon X / Y</a></li>
+<li><a href="http://www.jeuxvideo.com/forums/0-30945-0-1-0-1-0-football-manager-2014.htm">5. Football Manager 2014</a></li>
+
+</ul>
+</div>
+<div class="bloc_inner">
+<h4>Les Autres Forums</h4>
+<p class="liste_liens">
+<a href="http://www.jeuxvideo.com/forums/0-7-0-1-0-1-0-general-jeux-video.htm">GÃ©nÃ©ral</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-1-0-1-0-1-0-pc.htm">PC</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-60-0-1-0-1-0-playstation-3.htm">PS3</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-61-0-1-0-1-0-xbox-360.htm">360</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-62-0-1-0-1-0-wii.htm">Wii</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-1000039-0-1-0-1-0-nintendo-3ds.htm">3DS</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-56-0-1-0-1-0-nintendo-ds.htm">DS</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-42-0-1-0-1-0-playstation-portable.htm">PSP</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-1000006-0-1-0-1-0-playstation-vita.htm">Vita</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-11-0-1-0-1-0-macintosh.htm">Mac</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-36-0-1-0-1-0-guerre-des-consoles.htm">Guerre des consoles</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-1000021-0-1-0-1-0-communaute.htm">CommunautÃ©</a>&#160;-
+<a href="http://www.jeuxvideo.com/forums/0-3-0-1-0-1-0-petites-annonces.htm">Petites Annonces</a>
+</p>
+<p class="lien_base"><a href="http://www.jeuxvideo.com/forums.htm">Tous les Forums</a></p>
+<p class="lien_base"><a href="http://www.forumjv.com/">CrÃ©ez votre forum</a></p>
+</div>
+</div>
+<div id="hp_sondage" class="bloc3">
+<h3 class="titre_bloc"><span>Sondage</span></h3>
+<div class="bloc_inner">
+<iframe src="/cgi-bin/jvote/particip_sondage.cgi" frameborder="0"></iframe>
+<p class="lien_base"><a href="http://www.jeuxvideo.com/sondage/ind_0000.htm">PrÃ©cÃ©dents sondages</a></p>
+</div>
+</div>
+<div id="hp_newsletter" class="bloc3">
+<h3 class="titre_bloc"><span>Newsletter</span></h3>
+<div class="bloc_inner">
+<p>Chaque semaine, recevez les infos importantes de JeuxVideo.com !</p>
+<form action="/cgi-bin/msignin.cgi" method="post" name="form_newsletter" id="form_newsletter">
+<fieldset>
+<p><label for="email"><strong>Votre adresse e-mail : </strong></label><br />
+<input name="email" id="email" size="20" /><input value="subscribe" name="action" type="hidden" />
+<input type="image" id="valider" src="http://image.jeuxvideo.com/pics/recherche_bt_valider.gif" /></p>
+</fieldset>
+</form>
+<p class="lien_base"><a href="/cgi-bin/msignin.cgi">En savoir plus</a> | <a href="/cgi-bin/msignin.cgi?action=unsubscribe">Se dÃ©sabonner</a></p>
+</div>
+</div>
+
+</div>
+<!-- COL DROITE / fin -->
+</div>
+<div id="menu2">
+<script type="text/javascript"><!--
+jQuery("#banner_jv td > div").attr('id', 'ban_jv_div');
+//-->
+</script>
+<!-- SOMMAIRE / debut -->
+<hr />
+<div id="menu_rubriques">
+<div id="menu_magazine">
+<h3><img src="http://image.jeuxvideo.com/pics/blank.gif" alt="Magazine" /></h3>
+<ul>
+<li><a href="http://www.jeuxvideo.com/cheats.htm">Astuces</a></li>
+<li><a href="http://www.jeuxvideo.com/news/2014/20140526.htm">News</a></li>
+<li><a href="http://www.jeuxvideo.com/previews.htm">AperÃ§us</a></li>
+<li><a href="http://www.jeuxvideo.com/tests.htm">Tests</a></li>
+<li><a href="http://www.jeuxvideo.com/dossiers.htm">Dossiers</a></li>
+<li><a href="http://www.jeuxvideo.com/cgi-bin/sorties.cgi">Sorties</a></li>
+<li><a href="http://www.jeuxvideo.com/top20/top20_pc.htm">Hit-Parade</a></li>
+</ul>
+</div>
+<div id="menu_videos">
+<h3><img src="http://image.jeuxvideo.com/pics/blank.gif" alt="VidÃ©os" /></h3>
+<ul>
+<li><a href="http://www.jeuxvideo.com/gaming_live.htm">Gaming Live</a></li>
+<li><a href="http://www.jeuxvideo.com/bandes-annonces-videos-jeux.htm">Bandes-annonces</a></li>
+<li><a href="http://www.jeuxvideo.com/reportages-videos-jeux.htm">Reportages</a></li>
+<li><a href="http://www.jeuxvideo.com/chroniques-video.htm">Chroniques</a></li>
+<li><a href="http://www.jeuxvideo.com/extraits-videos-jeux.htm">Extraits</a></li>
+<li><a href="http://www.jeuxvideo.com/making-of-videos-jeux.htm">Making of</a></li>
+<li><a href="http://www.jeuxvideo.com/gaming-live/tv01.htm">Web TV</a></li>
+<li><a href="http://www.jeuxvideo.com/le-direct.htm">Replay</a></li>
+</ul>
+</div>
+<div id="menu_interactif">
+<h3><img src="http://image.jeuxvideo.com/pics/blank.gif" alt="Interactif" /></h3>
+<ul>
+<li><a href="http://www.jeuxvideo.com/moncompte.htm">Mon compte</a></li>
+<li><a href="http://www.jeuxvideo.com/forums.htm">Forums</a></li>
+<li><a href="http://blog.jeuxvideo.com/">Les Blogs</a></li>
+<li><a href="http://www.jeuxvideo.com/boite-a-idees/boite-a-idees.php">BoÃ®te Ã  idÃ©es</a></li>
+</ul>
+</div>
+<div id="menu_telecharger">
+<h3><img src="http://image.jeuxvideo.com/pics/blank.gif" alt="TÃ©lÃ©charger" /></h3>
+<ul>
+<li><a href="http://www.jeuxvideo.com/demos.htm">Jeux &amp; DÃ©mos</a></li>
+<li><a href="http://www.jeuxvideo.com/fonds-ecran-wallpapers.htm">Fonds d'Ã©cran</a></li>
+</ul>
+</div>
+<div id="menu_concours">
+<h3><img src="http://image.jeuxvideo.com/pics/blank.gif" alt="Jeux Concours" /></h3>
+<ul>
+<li><a href="http://www.jeuxvideo.com/code-gagnant/">Code Gagnant</a></li>
+<li><a href="http://www.jeuxvideo.com/quiz/">Quiz</a></li>
+<li><a href="http://www.jeuxvideo.com/concours/concours.php">Concours</a></li>
+</ul>
+</div>
+<div id="menu_apropos">
+<h3><img src="http://image.jeuxvideo.com/pics/blank.gif" alt="A propos" /></h3>
+<ul>
+<li><a href="http://www.jeuxvideo.com/mailform.php">L'Ã©quipe</a></li>
+</ul>
+</div>
+</div>
+<div id="menu_boutique">
+<div>
+<h3><img src="http://image.jeuxvideo.com/pics/blank.gif" alt="Boutique" /></h3>
+<ul>
+<li><a href="http://www.jeuxvideo.com/boutique/boutiksomm3.htm">Tous vos jeux Ã  prix canon</a></li>
+</ul>
+</div>
+</div>
+<!-- SOMMAIRE / fin -->
+
+<div id="menu_topventes">
+<div>
+<h3><span>Top Ventes</span></h3><ul>
+<li><a rel="external" target="_blank" href="http://www.jeuxvideo.com/boutique/redirect.php?ID=256250&Url=http%3A%2F%2Fjeux-video.fnac.com%2Fa6238107%2FWatch-Dogs-Edition-Speciale-Fnac-PS4-Jeu-PlayStation-4%3FOrigin%3DPA_JV_TOPVENTES"><img alt="Watch Dogs Edition SpÃ©ciale Fnac PS4" src="http://image.jeuxvideo.com/images_fnac/fnac_3307215721063.jpg" ><br>Watch Dogs Edition SpÃ©ciale Fnac PS4  <em>0,00</em></a></li><li><a rel="external" target="_blank" href="http://www.jeuxvideo.com/boutique/redirect.php?ID=256250&Url=http%3A%2F%2Fjeux-video.fnac.com%2Fa6993037%2FMario-Kart-8-Wii-U-Jeu-Nintendo-Wii-U%3FOrigin%3DPA_JV_TOPVENTES">Mario Kart 8 Wii U  <em>49,99</em></a></li><li><a rel="external" target="_blank" href="http://www.jeuxvideo.com/boutique/redirect.php?ID=256250&Url=http%3A%2F%2Fjeux-video.fnac.com%2Fa5963118%2FWatch-Dogs-Edition-Speciale-Fnac-PS3-Jeu-PlayStation-3%3FOrigin%3DPA_JV_TOPVENTES">Watch Dogs Edition SpÃ©ciale Fnac PS3  <em>54,50</em></a></li></ul>
+
+<div id="telechargement"><h3><a href="http://jeuxvideo.gamesplanet.com/"><span>Top TÃ©lÃ©chargement</span></a></h3><ul>
+<li><a rel="external" target="_blank" href="http://www.jeuxvideo.com/boutique/redirect.php?ID=00001463&Url=http%3A%2F%2Fjeuxvideo.gamesplanet.com%2Facheter-telecharger-jeux-pc%2FWolfenstein%28R%29%3A-The-New-Order-3926-38.html%3Futm_source%3Dboutique%26utm_medium%3DXML"><img alt="Wolfenstein: The New Order" src="http://image.jeuxvideo.com/images_amazon/metaboli_Wolfenstein_TheNewOrder.jpg" ><br>Wolfenstein: The New Order  <em>46,99&nbsp;&euro;</em></a></li><li><a rel="external" target="_blank" href="http://www.jeuxvideo.com/boutique/redirect.php?ID=00001463&Url=http%3A%2F%2Fjeuxvideo.gamesplanet.com%2Facheter-telecharger-jeux-pc%2FTropico-5-4261-42.html%3Futm_source%3Dhomepage%26utm_medium%3DXML">Tropico 5  <em>40,99&nbsp;&euro;</em></a></li></ul></div>
+
+</div>
+</div>
+<div id="sponsor_google">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:120px;height:100px"
+     data-ad-client="ca-pub-2508412295068591"
+     data-ad-slot="2404384733"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+</div>
+</div>
+<!-- FOOTER / debut -->
+<script type="text/javascript"><!--
+jQuery("#menu2").append("<div id=\"menu_100_80\"><ul><li id=\"bouton_100_80\"></li></ul></div>");
+//-->
+</script>
+<hr />
+<div id="footer">
+<div id="liens_pied">
+<p>Copyright Â© 1997-2014 <a href="http://www.odyssee-interactive.com/" rel="external">L'OdyssÃ©e Interactive</a> Tous droits rÃ©servÃ©s.<br />
+<a href="http://www.jeuxvideo.com/mailform.php">Contact</a> | <a href="http://www.jeuxvideo.com/copyright.htm">Informations lÃ©gales</a> | <a href="http://www.jeuxvideo.com/cgu.htm">C.G.U.</a> | <a href="http://www.jeuxvideo.com">jeuxvideo.com</a> est un site <a href="http://www.hi-media.com" rel="external">Hi-Media Publishing Network</a><br />
+<a href="http://www.jeuxvideo.com/listejeux/jeux_A.htm">Liste des jeux</a> | <a href="http://www.jeuxvideo.com/partenaires.htm">Partenaires</a> | <a href="http://www.jeuxvideo.com/jvsearchplugin.htm">Plugin de recherche</a> | <a href="http://www.jeuxvideo.com/jvxml.htm">Flux RSS</a> | <a href="http://www.ojd-internet.com/chiffres-internet/7510-jeuxvideo.com" target="_blank">FrÃ©quentation certifiÃ©e par l'OJD</a> </p>
+</div>
+
+<div id="partenaires">
+<p>Partenaires : <a href="http://www.wearefans.com" rel="external">wearefans.com</a> | <a href="http://www.wearefans.com/vetements/tee-shirt-hommes.html" rel="external">Tee-shirt jeux vidÃ©o</a> | <a href="http://www.toutlecine.com/" rel="external">CinÃ©ma</a> | <a title="ActualitÃ© people, les news et les potins des stars et des cÃ©lÃ©britÃ©s" href="http://www.actustar.com" target="_blank" rel="external">People</a> | <a title="programme TV" href="http://www.programme-tv.com" target="_blank" rel="external">TV</a> | <a title="Blog gratuit" href="http://www.blogorama.fr/" target="_blank" rel="external">Blog gratuit</a> | <a title="Jeux Flash gratuits" href="http://www.gameonly.com/" rel="external">Jeux flash</a> | <a title="Moto taxi" href="http://www.hi-cab.com/" rel="external">Moto taxi</a> | <a href="http://www.lepetitmoutard.fr/" rel="external" title="ActivitÃ©s enfants avec lepetitmoutard.fr">ActivitÃ©s enfants</a></p>
+</div>
+
+<!-- IcÃ´nes Facebook/Twitter/Googleplus -->
+<div id="fbtw2">
+<ul>
+<li><a href="http://www.facebook.com/jvcom" target="_blank" rel="nofollow"><img src="http://image.jeuxvideo.com/pics/footer/facebook.png" alt="jeuxvideo.com sur Facebook" width="14" height="14" /></a></li>
+<li><a href="http://twitter.com/JVCom" target="_blank" rel="nofollow"><img src="http://image.jeuxvideo.com/pics/footer/twitter.png" alt="jeuxvideo.com sur Twitter" width="14" height="14" /></a></li>
+<li><a href="https://plus.google.com/105261500849864742219/" target="_blank" rel="publisher"><img src="http://image.jeuxvideo.com/pics/footer/googleplus.png" alt="jeuxvideo.com sur Google+" width="14" height="14" /></a></li>
+<li id="nb_plus"><g:plusone href="http://www.jeuxvideo.com" size="small" expandTo="top,left"></g:plusone></li>
+</ul>
+</div><!-- #fbtw2 / fin -->
+
+</div><!-- FOOTER / fin -->
+
+</div>
+<script type="text/javascript"><!--
+if(typeof(NB_AD) === 'undefined') {
+var NB_AD=1;
+} else {
+NB_AD++;
+ } 
+if(typeof(HAS_LOAD_UT) === 'undefined') var HAS_LOAD_UT=0;
+if(HAS_LOAD_UT === 0) {
+var adlSite = 'jeuxvideo.com';
+var adlZone = 'homepage'; 
+var adlHasDcopt = false;
+var adlKv='editeur=' + nom_editeur + ';type=' + nom_type + ';plateforme=' + nom_mach + ';nom=' + nom_jeu + ';classification='+ classification + ';recherche=' + motsearch + ';';
+var adlPro = window.location.protocol == 'https:' ? 'https:' : 'http:';
+document.write('<'+'sc'+'ript type= "text/javascript" src="'+ adlPro+'//js.himediads.com/js?lang=fr&amp;s='+adlSite+'&amp;z='+adlZone+'&amp;d='+Math.floor(Math.random()*10000000000)+'"><\/'+'sc'+'ript>');
+HAS_LOAD_UT=1;}
+//-->
+</script>
+<div id="banner_loader">
+<script type="text/javascript"><!--
+if (typeof getAdLinkAdTag =='function') getAdLinkAdTag( '728x90' );
+//-->
+</script>
+<noscript>
+<a href="http://rd.himediads.com/fr/jump/jeuxvideo.com/homepage;sz=728x90;tile=2;ord=650905697226" target="_blank">
+<img src="http://rd.himediads.com/fr/ad/jeuxvideo.com/homepage;sz=728x90;tile=2;ord=650905697226?" border="0" width="468" height="60" alt="" />
+</a>
+</noscript>
+</div>
+<div class="carre_100_80_ut"><script type="text/javascript"><!--
+if (typeof getAdLinkAdTag =='function') getAdLinkAdTag( '2x2' );
+//-->
+</script></div>
+<div class="carre_100_80_loader"><script type="text/javascript"><!--
+var url_bouton_deux='http://ad.himediadx.com/ttj?id=1129008&size=100x80&editeur=' + nom_editeur + '&type=' + nom_type + '&plateforme=' + nom_mach + '&nom=' + nom_jeu + '&classification='+ classification + '&recherche=' + motsearch;
+document.write('<'+'sc'+'ript type= "text/javascript" src="'+url_bouton_deux+'"><\/'+'sc'+'ript>');
+//-->
+</script></div>
+<script type="text/javascript"><!--
+var url_habillage='http://ad.himediadx.com/ttj?id=1129008&size=1x1&editeur=' + nom_editeur + '&type=' + nom_type + '&plateforme=' + nom_mach + '&nom=' + nom_jeu + '&classification='+ classification + '&recherche=' + motsearch;
+document.write('<'+'sc'+'ript type= "text/javascript" src="'+url_habillage+'"><\/'+'sc'+'ript>');
+//-->
+</script>
+<script type="text/javascript"><!--
+var url_audience='http://ad.himediadx.com/ttj?id=1129008&size=2x1&editeur=' + nom_editeur + '&type=' + nom_type + '&plateforme=' + nom_mach + '&nom=' + nom_jeu + '&classification='+ classification + '&recherche=' + motsearch;
+document.write('<'+'sc'+'ript type= "text/javascript" src="'+url_audience+'"><\/'+'sc'+'ript>');
+//-->
+</script>
+
+<script type="text/javascript">
+// <![CDATA[
+var ts_site = 1;var ts_rub = 2;var lo_time = 1401132707;var lo_cod = '1d664706e6b3cd669e5bb03029851085';// ]]>
+</script>
+<div class="stats"><img id="image_dstats" width="1" height="1" src="http://www.jeuxvideo.com/cgi-bin/dnu34stnds?S=001&amp;C=002&amp;D=703820260" alt="" /></div>
+<script type="text/javascript">
+// <![CDATA[
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-30147725-1']);
+_gaq.push(['_setSampleRate', 1]);
+_gaq.push(['_setDomainName', '.jeuxvideo.com']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+})();
+// ]]>
+</script>
+<script type="text/javascript" src="http://wms.assoc-amazon.com/20070822/US/js/auto-tagger.js?tag=jeuxvideo_autotag-21&amp;locale=FR&amp;overwrite=1"></script>
+<script type='text/javascript'>var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '11lHhL']);
+(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; 
+autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();</script>
+<script type="text/javascript">
+// <![CDATA[
+var disp_pub = false;var new_jv_disp_vu = false;// ]]>
+</script>
+<script type="text/javascript" src="http://www.jeuxvideo.com/js/adblock.js"></script>
+<script type="text/javascript" src="http://www.jeuxvideo.com/js/new_jv_disp_vu.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+function udm_(e){var t="comScore=",n=document,r=n.cookie,i="",s="indexOf",o="substring",u="length",a=2048,f,l="&ns_",c="&",h,p,d,v,m=window,g=m.encodeURIComponent||escape;if(r[s](t)+1)for(d=0,p=r.split(";"),v=p[u];d<v;d++)h=p[d][s](t),h+1&&(i=c+unescape(p[d][o](h+t[u])));e+=l+"_t="+ +(new Date)+l+"c="+(n.characterSet||n.defaultCharset||"")+"&c8="+g(n.title)+i+"&c7="+g(n.URL)+"&c9="+g(n.referrer),e[u]>a&&e[s](c)>0&&(f=e[o](0,a-8).lastIndexOf(c),e=(e[o](0,f)+l+"cut="+g(e[o](f+1)))[o](0,a)),n.images?(h=new Image,m.ns_p||(ns_p=h),h.src=e):n.write("<","p","><",'img src="',e,'" height="1" width="1" alt="*"',"><","/p",">")};
+var url_comscore = '';var jv_nom_categorie1 = 'accueil';if (typeof nom_jeu !== 'undefined') url_comscore = url_comscore + '&jv_nom_jeu=' + encodeURIComponent(nom_jeu); if (typeof nom_mach !== 'undefined') url_comscore = url_comscore + '&jv_nom_machine=' + encodeURIComponent(nom_mach); if (typeof nom_type !== 'undefined') url_comscore = url_comscore + '&jv_nom_type=' + encodeURIComponent(nom_type); if (typeof nom_editeur !== 'undefined') url_comscore = url_comscore + '&jv_nom_editeur=' + encodeURIComponent(nom_editeur); if (typeof classification !== 'undefined') url_comscore = url_comscore + '&jv_nom_classification=' + encodeURIComponent(classification); if (typeof motsearch !== 'undefined') url_comscore = url_comscore + '&jv_mot_search=' + encodeURIComponent(motsearch); if (typeof id_jeu !== 'undefined') url_comscore = url_comscore + '&jv_id_jeu=' + encodeURIComponent(id_jeu);if (typeof type_element !== 'undefined') url_comscore = url_comscore + '&jv_type_element=' + encodeURIComponent(type_element); if (typeof id_element !== 'undefined') url_comscore = url_comscore + '&jv_id_element=' + encodeURIComponent(id_element); if ( (typeof new_jv_disp_vu !== 'undefined') && ( new_jv_disp_vu == true ) ) { url_comscore = url_comscore + '&jv_disp_pub=new_block' ;  } else { if (typeof disp_pub !== 'undefined') url_comscore = url_comscore + '&jv_disp_pub=' + encodeURIComponent(disp_pub);  } udm_('http'+(document.location.href.charAt(4)=='s'?'s://sb':'://b')+'.scorecardresearch.com/b?c1=2&c2=8823104&jv_nom_categorie=accueil' + url_comscore);
+// ]]>
+</script>
+<noscript><p><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=8823104" height="1" width="1" alt="*" /></p></noscript>
+<script type="text/javascript" language="JavaScript1.3" src="http://b.scorecardresearch.com/c2/8823104/cs.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() { var mediego = document.createElement('script'); mediego.type = 'text/javascript'; mediego.async = true; mediego.src = ('https:' == document.location.protocol ? 'https://' : 'http://') +'www.mediego.com/mediego.js'; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(mediego, s); })();
+// ]]>
+</script>
+
+</body>
+</html>

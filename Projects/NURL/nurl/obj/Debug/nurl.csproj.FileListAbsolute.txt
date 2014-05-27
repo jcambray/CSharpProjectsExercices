@@ -1,0 +1,15 @@
+c:\users\jerome\documents\visual studio 2012\Projects\nurl\nurl\bin\Debug\nurl.exe.config
+c:\users\jerome\documents\visual studio 2012\Projects\nurl\nurl\bin\Debug\nurl.exe
+c:\users\jerome\documents\visual studio 2012\Projects\nurl\nurl\bin\Debug\nurl.pdb
+c:\users\jerome\documents\visual studio 2012\Projects\nurl\nurl\obj\Debug\nurl.csprojResolveAssemblyReference.cache
+c:\users\jerome\documents\visual studio 2012\Projects\nurl\nurl\obj\Debug\nurl.exe
+c:\users\jerome\documents\visual studio 2012\Projects\nurl\nurl\obj\Debug\nurl.pdb
+C:\Users\jerome\documents\visual studio 2012\Projects\nurl\nurl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jerome\documents\visual studio 2012\Projects\nurl\nurl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\bin\Debug\nurl.exe.config
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\obj\Debug\nurl.exe
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\obj\Debug\nurl.pdb
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\bin\Debug\nurl.exe
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\bin\Debug\nurl.pdb
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\obj\Debug\nurl.csprojResolveAssemblyReference.cache
