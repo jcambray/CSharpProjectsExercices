@@ -29,5 +29,20 @@ namespace nurlTests
             app.SaveAsJSON(file, data);
             Assert.IsTrue(new FileInfo(expectedfile).Length > 0);
         }
+
+        [Test]
+        public void TimeSpanIsNotNull()
+        {
+            var url = @"http://api.openweathermap.org/data/2.5/weather?q=paris&units=metric";
+            NurlApplication nurl = new NurlApplication();
+            var default_diff = new TimeSpan(0,0,0);
+            var diff = default_diff;
+
+            var start = DateTime.Now;
+            nurl.GetData(url);
+            var end = DateTime.Now;
+            diff = end - start;
+            Assert.AreNotEqual(default_diff,diff);
+        }
     }
 }

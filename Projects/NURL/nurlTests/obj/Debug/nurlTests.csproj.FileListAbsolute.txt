@@ -14,3 +14,5 @@ C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests
 C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\obj\Debug\nurlTests.pdb
 C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\bin\Debug\nurl.exe
 C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\bin\Debug\nurl.pdb
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\bin\Debug\CommandLine.dll
+C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurlTests\bin\Debug\CommandLine.xml
