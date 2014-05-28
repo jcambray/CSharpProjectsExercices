@@ -10,39 +10,41 @@ namespace nurlTests
     [TestFixture]
     class NurlTest
     {
+      
+
         [Test]
-        public void StringVariableShouldNotBeEmpty()
+        public void ShouldGetPageContent()
         {
-            WebClient client = new WebClient();
-            var url = @"http://api.openweathermap.org/data/2.5/weather?q=paris&units=metric";
-            var data = client.DownloadString(url);
-            Assert.IsTrue(data.Length != 0);
+            //given
+            var app = new NurlApplication();
+            var commands = new string[] { "get", "-url", @"https://jcambray.github.io/fake.html" };
+            var expectedString = @"<html>Hello!</html>";
+
+            //when
+            app.DispatchArgs(commands);
+            var data = app.Datas;
+
+            //then
+            Assert.AreEqual(expectedString, data);
+
+
         }
 
         [Test]
-        public void FileShouldNotBeEmpty()
+        public void FileContentShouldBeEqualToStringVariable()
         {
-            NurlApplication app = new NurlApplication();
-            string data = "tototatatiti";
-            string file = "testFile";
-            string expectedfile = file+".json";
-            app.SaveAsJSON(file, data);
-            Assert.IsTrue(new FileInfo(expectedfile).Length > 0);
+            //given
+            var app = new NurlApplication();
+            var commands = new string[] { "get", "-url", @"https://jcambray.github.io/fake.html","-save",@"c:\test\testfile.htm" };
+            var expectedFileContent = @"<html>Hello!</html>";
+
+            //when
+            app.DispatchArgs(commands);
+            var fileContent = File.ReadAllText(@"c:\test\testfile.htm");
+
+            //then
+            Assert.AreEqual(expectedFileContent, fileContent);
         }
 
-        [Test]
-        public void TimeSpanIsNotNull()
-        {
-            var url = @"http://api.openweathermap.org/data/2.5/weather?q=paris&units=metric";
-            NurlApplication nurl = new NurlApplication();
-            var default_diff = new TimeSpan(0,0,0);
-            var diff = default_diff;
-
-            var start = DateTime.Now;
-            nurl.GetData(url);
-            var end = DateTime.Now;
-            diff = end - start;
-            Assert.AreNotEqual(default_diff,diff);
-        }
     }
 }

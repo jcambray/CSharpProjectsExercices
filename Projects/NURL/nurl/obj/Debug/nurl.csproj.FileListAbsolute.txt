@@ -11,5 +11,4 @@ C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\obj\
 C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\obj\Debug\nurl.pdb
 C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\bin\Debug\nurl.exe
 C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\bin\Debug\nurl.pdb
-C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\bin\Debug\Newtonsoft.Json.xml
 C:\Users\jerome\Documents\GitHub\cSharpProjectsExercices\Projects\NURL\nurl\obj\Debug\nurl.csprojResolveAssemblyReference.cache
