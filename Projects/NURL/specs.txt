@@ -1,0 +1,30 @@
+Feature: get
+
+In order: to see the content of a web page
+As the user
+
+Scenario: print the content to a web page
+Given: An option and the url of the web page ' get -url "http://google.fr"'
+when : press 'enter'
+then : print the content of the page in the shell
+
+Given: Given: An option and the url of the web page ' get -url "http://google.fr"'
+And  : another option and its argument '-save "C:\webPage\google.fr"' 
+when : press 'enter'
+then : print the content of the page in the shell and save the content of the web page in the specified file in argument
+
+
+feature: test
+
+In order to test the connection to a web page
+As the user
+
+Scenario: try to connect and test the connection time to a web site
+Given   : An option and the url of the web site and the number of attempt 'test -url "http://google.fr" -time 3'
+when    : press 'enter'
+then    : test the connection the number of time specified in argument and print in the shell the result of each atempt.
+
+Given   : An option and the url of the web site and the number of attempt 'test -url "http://google.fr" -time 3'
+and     : an other option '-avg'
+when    : press 'enter'
+then    : test the connection the number of time specified in argument and calculates the average connection time and print it in the shell.

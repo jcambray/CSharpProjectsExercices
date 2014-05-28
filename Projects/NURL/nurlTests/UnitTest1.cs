@@ -15,16 +15,16 @@ namespace nurlTests
         [Test]
         public void ShouldGetPageContent()
         {
-            //given
+      
             var app = new NurlApplication();
             var commands = new string[] { "get", "-url", @"https://jcambray.github.io/fake.html" };
             var expectedString = @"<html>Hello!</html>";
 
-            //when
+   
             app.DispatchArgs(commands);
             var data = app.Datas;
 
-            //then
+
             Assert.AreEqual(expectedString, data);
 
 
@@ -33,17 +33,47 @@ namespace nurlTests
         [Test]
         public void FileContentShouldBeEqualToStringVariable()
         {
-            //given
-            var app = new NurlApplication();
+
+            
             var commands = new string[] { "get", "-url", @"https://jcambray.github.io/fake.html","-save",@"c:\test\testfile.htm" };
             var expectedFileContent = @"<html>Hello!</html>";
 
-            //when
+            var app = new NurlApplication();
             app.DispatchArgs(commands);
             var fileContent = File.ReadAllText(@"c:\test\testfile.htm");
 
-            //then
+
             Assert.AreEqual(expectedFileContent, fileContent);
+        }
+
+        [Test]
+        public void GetAverageTime()
+        {
+            var app = new NurlApplication();
+
+            //given
+            var command = new String[] { "test", "-url", @"https://jcambray.github.io/fake.html", "-time", "3","-avg" };
+            
+            //when
+            app.DispatchArgs(command);
+
+            //then
+            Assert.IsTrue(app.avg > 0);
+        }
+
+        [Test]
+        public void TestConnection()
+        {
+            var app = new NurlApplication();
+           
+            //given
+            var command = new String[] { "test", "-url", @"https://jcambray.github.io/fake.html", "-time", "3" };
+
+            //when
+            app.DispatchArgs(command);
+
+            //then
+            Assert.IsTrue(app.Time > 0);
         }
 
     }

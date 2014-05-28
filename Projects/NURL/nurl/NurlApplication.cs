@@ -11,8 +11,8 @@ namespace nurl
     public class NurlApplication
     {
         public string Datas { get; set; }
-        //public float avg { get; set; }
-        //public string[] ConsoleArgs { get; set; }
+        public double avg { get; set; }
+        public double Time { get; set; }
 
 
         public void GetData(string url)
@@ -61,8 +61,8 @@ namespace nurl
                 var timeAtStart = DateTime.Now;
                 GetData(url);
                 var timeAtEnd = DateTime.Now;
-                var timespan = timeAtEnd - timeAtStart;
-                Console.WriteLine("Temps écoulé : " + timespan.TotalMilliseconds.ToString() + " millisecondes.");
+                Time = (timeAtEnd - timeAtStart).Milliseconds;
+                Console.WriteLine("Temps écoulé : " + Time.ToString() + " millisecondes.");
             }
         }
 
@@ -76,7 +76,7 @@ namespace nurl
                 var end = DateTime.Now;
                 cumul += end - start;
             }
-            var avg = cumul.TotalMilliseconds / times;
+            avg = cumul.TotalMilliseconds / times;
             Console.WriteLine("Temps moyen du chargement: " + avg + " millisecondes.");
 
         }
